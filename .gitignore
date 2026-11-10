@@ -1,10 +1,25 @@
-# Ignore compiled Python files
-*.pyc
-
+# Environment variables and secrets
 .env
 
-# Ignore Python cache directories
+# Database
+data-dev.sqlite
+data.sqlite
+*.sqlite
+*.db
+
+# Python compiled files
+*.pyc
 __pycache__/
 
-# Ignore virtual environment directories
+# Virtual environments
 venv/
+.virtualenvs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
